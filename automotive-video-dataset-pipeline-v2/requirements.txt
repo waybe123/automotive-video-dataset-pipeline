@@ -1,0 +1,11 @@
+torch
+torchvision
+transformers
+accelerate
+qwen-vl-utils
+opencv-python-headless
+scenedetect
+Pillow
+numpy
+tqdm
+safetensors

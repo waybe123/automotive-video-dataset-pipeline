@@ -1,0 +1,42 @@
+{
+  "project": {
+    "name": "Multi-Brand Automotive Video Dataset Pipeline",
+    "version": "2.0"
+  },
+  "paths": {
+    "data_root": "../data",
+    "reports_root": "../reports"
+  },
+  "brand": {
+    "name": "example_brand",
+    "raw_video_directory": "../data/example_brand/raw",
+    "raw_metadata_file": "../data/example_brand/manifests/raw_metadata.json"
+  },
+  "video": {
+    "resolution": [
+      960,
+      544
+    ],
+    "fps": 24,
+    "clip_seconds": 5.0,
+    "min_clip_seconds": 2.0,
+    "codec": "libx264",
+    "crf": 18,
+    "max_clips_per_video": 0
+  },
+  "scene_detection": {
+    "threshold": 27.0
+  },
+  "quality_control": {
+    "include_statuses": [
+      "PASS"
+    ],
+    "exclude_invalid_captions": true
+  },
+  "caption": {
+    "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "minimum_words": 10,
+    "skip_existing": true,
+    "frames": 5
+  }
+}
