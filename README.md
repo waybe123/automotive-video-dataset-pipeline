@@ -35,8 +35,8 @@ The current caption implementation uses the Qwen2.5-VL architecture.
 
 Clone your repository and enter the project directory:
 
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-    cd YOUR_REPOSITORY
+    git clone https://github.com/waybe123/automotive-video-dataset-pipeline.git
+    cd automotive-video-dataset-pipeline
 
 Create a Python environment:
 
