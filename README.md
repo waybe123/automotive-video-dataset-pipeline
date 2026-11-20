@@ -153,4 +153,4 @@ These checks are not full cryptographic verification of source content.
 
 ## License
 
-A license has not yet been selected. Add a suitable license before publishing if you want to authorize reuse and modification.
+This project is licensed under the MIT License.
